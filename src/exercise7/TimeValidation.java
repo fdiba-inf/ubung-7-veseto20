@@ -19,7 +19,7 @@ public class TimeValidation {
 
     public static boolean areHoursValid(int hours) {
         
-          if(hours<24 && hours>0){
+          if(hours<24 && hours>=0){
             return true;
           }else{
             return false;
@@ -30,7 +30,7 @@ public class TimeValidation {
 
 
     public static boolean areMinutesValid(int minutes) {
-        if(minutes<60 && minutes>0){
+        if(minutes<60 && minutes>=0){
           return true;
         } else{
          return false;
